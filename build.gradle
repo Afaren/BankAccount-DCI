@@ -11,3 +11,14 @@ repositories {
 dependencies {
     testCompile 'junit:junit:4.11'
 }
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'net.saliman:gradle-cobertura-plugin:2.0.0'
+        classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:0.2.1'
+    }
+}
