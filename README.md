@@ -1,4 +1,4 @@
-# BankAccount-DCI
+# BankAccount-DCI v0.1.0
 
 This repository is an (experimental) exmaple implementation of BankAccount DCI in Java.
 
