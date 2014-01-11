@@ -3,9 +3,9 @@
 
 BankAccount DCI example in Java
 
-This example implements the roles as the adapters of the domain models to the contexts, not using trait nor method injections.
+This example implements the roles as the adapters of the models to the contexts. And it doesn't use traits or method injections.
 
-Good aspects:
+good points:
 - easy to implement.
 - easy to understand.
 - Any IDE understand this implementation.
@@ -13,5 +13,5 @@ Good aspects:
 - Any language can implement this.
 - No performance issues of method injection.
 
-Poor aspects:
+disadvantages:
 - Less reusable roles.
