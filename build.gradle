@@ -25,4 +25,4 @@ buildscript {
     }
 }
 
-cobertura.coverageFormat = ['html', 'xml']
+cobertura.coverageFormats = ['html', 'xml']
