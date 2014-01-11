@@ -1,5 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'idea'
+apply plugin: 'cobertura'
+apply plugin: 'coveralls'
 
 version = '0.1.0'
 group = 'org.kt3k'
@@ -22,3 +24,5 @@ buildscript {
         classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:0.2.1'
     }
 }
+
+cobertura.coverageFormat = ['html', 'xml']
